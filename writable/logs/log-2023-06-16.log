@@ -1,0 +1,759 @@
+CRITICAL - 2023-06-16 14:46:41 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:47:54 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:24 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:34 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:36 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:36 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:36 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:36 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:36 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-16 14:48:44 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-06-16 12:59:20 --> mysqli_sql_exception: Table 'disertus.usuarios' doesn't exist in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\Disertus\app\Models\registrar_modelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(60): App\Models\Registrar_modelo->registrar(Array)
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-16 12:59:20 --> Table 'disertus.usuarios' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM usuarios WHERE Email = \'009@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM usuarios WHERE Email = \'009@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM usuarios WHERE Email = \'009@gmail.com\'')
+ 4 APPPATH\Models\registrar_modelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE Email = \'009@gmail.com\'')
+ 5 APPPATH\Controllers\registrar.php(60): App\Models\Registrar_modelo->registrar([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-16 13:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-16 13:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-16 14:48:19 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:21 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:23 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:26 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:28 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:30 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:32 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:34 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:36 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:38 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:40 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:43 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:45 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:47 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:49 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:51 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:53 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:56 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:48:58 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:49:00 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:49:02 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:49:04 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:49:06 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:50:14 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:50:16 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:50:18 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:50:21 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:50:23 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:50:25 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 14:51:04 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:37 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:38 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:39 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:41 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:43 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:45 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:47 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:49 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:52 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:54 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:56 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:05:58 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:00 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:02 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:04 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:07 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:09 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:11 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:13 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:15 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:17 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:19 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:21 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:23 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:25 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:28 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:30 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:32 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:34 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:36 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:38 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:40 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:42 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:45 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:47 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:49 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:51 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:53 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:55 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:57 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:06:59 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:01 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:03 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:06 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:08 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:10 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:12 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:14 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:16 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:18 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:20 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:22 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:25 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:27 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:29 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:31 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:33 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:35 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:37 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:39 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:41 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:44 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:46 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:48 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:50 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:52 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:54 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:56 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:07:59 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:08:01 --> Too few arguments to function App\Controllers\Recibir_nodemcu::recibir_datos(), 0 passed in C:\xampp\htdocs\Disertus\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\recibir_nodemcu.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:08:03 --> Undefined variable $hola
+in APPPATH\Controllers\recibir_nodemcu.php on line 9.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hola', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:08:05 --> Undefined variable $hola
+in APPPATH\Controllers\recibir_nodemcu.php on line 9.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hola', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:08:07 --> Undefined variable $hola
+in APPPATH\Controllers\recibir_nodemcu.php on line 9.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hola', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:08:09 --> Undefined variable $hola
+in APPPATH\Controllers\recibir_nodemcu.php on line 9.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hola', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 15:08:11 --> Undefined variable $hola
+in APPPATH\Controllers\recibir_nodemcu.php on line 9.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hola', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

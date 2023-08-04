@@ -1,0 +1,33 @@
+INFO - 2023-05-11 16:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-11 16:48:57 --> Call to undefined function set_value()
+in APPPATH\Views\auth\login.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/login', [], true)
+ 4 APPPATH\Controllers\Auth.php(9): view('auth/login')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 16:51:01 --> Undefined variable $userInfo
+in APPPATH\Views\auth\home.php on line 31.
+ 1 APPPATH\Views\auth\home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userInfo', 'C:\\xampp\\htdocs\\disertus\\app\\Views\\auth\\home.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\disertus\\app\\Views\\auth\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/home', [], true)
+ 5 APPPATH\Controllers\Auth.php(9): view('auth/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 20:50:01 --> Undefined variable $userInfo
+in APPPATH\Views\auth\home.php on line 31.
+ 1 APPPATH\Views\auth\home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userInfo', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\auth\\home.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\auth\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('auth/home', [], true)
+ 5 APPPATH\Controllers\Auth.php(9): view('auth/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

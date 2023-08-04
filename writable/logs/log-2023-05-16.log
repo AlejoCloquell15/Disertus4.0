@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-16 18:53:03 --> Invalid file: "contact_form.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact_form.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('contact_form', [], true)
+ 3 APPPATH\Controllers\registrar.php(44): view('contact_form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

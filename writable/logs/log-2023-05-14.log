@@ -1,0 +1,174 @@
+ERROR - 2023-05-14 19:05:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO usu...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usu...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usu...')
+#3 C:\xampp\htdocs\Disertus\app\Models\registrar_modelo.php(11): CodeIgniter\Database\BaseConnection->query('INSERT INTO usu...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(23): App\Models\Registrar_modelo->registrar('sdf', 'wetre', 'dsfds')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-14 19:05:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (sdf, wetre, dsfds', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (sdf, wetre, dsfds')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (sdf, wetre, dsfds')
+ 4 APPPATH\Models\registrar_modelo.php(11): CodeIgniter\Database\BaseConnection->query('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (sdf, wetre, dsfds')
+ 5 APPPATH\Controllers\registrar.php(23): App\Models\Registrar_modelo->registrar('sdf', 'wetre', 'dsfds')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 19:09:57 --> mysqli_sql_exception: Unknown column 'ferf' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO usu...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usu...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usu...')
+#3 C:\xampp\htdocs\Disertus\app\Models\registrar_modelo.php(13): CodeIgniter\Database\BaseConnection->query('INSERT INTO usu...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(23): App\Models\Registrar_modelo->registrar('ferf', 'ewfe', 'rfer')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-14 19:09:57 --> Unknown column 'ferf' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (ferf, ewfe, rfer)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (ferf, ewfe, rfer)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (ferf, ewfe, rfer)')
+ 4 APPPATH\Models\registrar_modelo.php(13): CodeIgniter\Database\BaseConnection->query('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (ferf, ewfe, rfer)')
+ 5 APPPATH\Controllers\registrar.php(23): App\Models\Registrar_modelo->registrar('ferf', 'ewfe', 'rfer')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 19:11:16 --> Class "fvcdf" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 580.
+ 1 APPPATH\Models\registrar_modelo.php(13): CodeIgniter\Database\BaseConnection->query('INSERT INTO usuarios (Nombre, Email, Contraseña) VALUES (fv, frevc, fvcdf)', 'fv', true, 'fvcdf')
+ 2 APPPATH\Controllers\registrar.php(23): App\Models\Registrar_modelo->registrar('fv', 'frevc', 'fvcdf')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 19:22:56 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\registrar.php(23): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 19:23:49 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\registrar.php(23): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 19:33:24 --> mysqli_sql_exception: Unknown column 'Contrasena' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(23): App\Models\Registrar_modelo->registrar(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-14 19:33:24 --> Unknown column 'Contrasena' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (\'fvfd\', \'dfd\', \'dfv\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (\'fvfd\', \'dfd\', \'dfv\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (\'fvfd\', \'dfd\', \'dfv\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (:Nombre:, :Mail:, :Contrasena:)', [...], false)
+ 5 APPPATH\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\registrar.php(23): App\Models\Registrar_modelo->registrar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 20:07:06 --> The route for "registrar/registrar" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('registrar/registrar')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\registrar.php(27): redirect('registrar/registrar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 20:08:26 --> The route for "http://localhost/Disertus/public/registrar/registrar" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/Disertus/public/registrar/registrar')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\registrar.php(27): redirect('http://localhost/Disertus/public/registrar/registrar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 20:08:40 --> The route for "http://localhost/Disertus/public/index.php/registrar/registrar" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/Disertus/public/index.php/registrar/registrar')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\registrar.php(27): redirect('http://localhost/Disertus/public/index.php/registrar/registrar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 20:08:41 --> The route for "http://localhost/Disertus/public/index.php/registrar/registrar" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/Disertus/public/index.php/registrar/registrar')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\registrar.php(27): redirect('http://localhost/Disertus/public/index.php/registrar/registrar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-14 20:08:53 --> The route for "http://localhost/Disertus/public/index.php/registrar/registrar" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/Disertus/public/index.php/registrar/registrar')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\registrar.php(27): redirect('http://localhost/Disertus/public/index.php/registrar/registrar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-14 20:16:23 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Libraries\Hash.php on line 8.
+ 1 APPPATH\Libraries\Hash.php(8): password_hash(null, '2y')
+ 2 APPPATH\Controllers\registrar.php(37): App\Libraries\Hash::make(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-14 20:16:23 --> mysqli_sql_exception: Column 'Nombre' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(40): App\Models\Registrar_modelo->registrar(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-14 20:16:23 --> Column 'Nombre' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (NULL, NULL, \'$2y$10$c07kowX6HjZkHbjbNNdOV.0.oLfbGAGDQyiA7QcjL/xKvmX8n.gvu\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (NULL, NULL, \'$2y$10$c07kowX6HjZkHbjbNNdOV.0.oLfbGAGDQyiA7QcjL/xKvmX8n.gvu\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (NULL, NULL, \'$2y$10$c07kowX6HjZkHbjbNNdOV.0.oLfbGAGDQyiA7QcjL/xKvmX8n.gvu\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`Nombre`, `Mail`, `Contrasena`) VALUES (:Nombre:, :Mail:, :Contrasena:)', [...], false)
+ 5 APPPATH\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\registrar.php(40): App\Models\Registrar_modelo->registrar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

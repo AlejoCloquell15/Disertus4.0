@@ -1,0 +1,496 @@
+CRITICAL - 2023-05-18 11:23:16 --> Attempt to read property "password" on string
+in APPPATH\Views\sp_registrar.php on line 25.
+ 1 APPPATH\Views\sp_registrar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\sp_registrar.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\sp_registrar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sp_registrar', [], true)
+ 5 APPPATH\Controllers\registrar.php(44): view('sp_registrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:28:39 --> Undefined constant "x"
+in APPPATH\Views\sp_registrar.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sp_registrar', [], true)
+ 4 APPPATH\Controllers\registrar.php(44): view('sp_registrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 11:32:46 --> mysqli_sql_exception: Duplicate entry 'gaga@gmail.com' for key 'Email' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(58): App\Models\Registrar_modelo->registrar(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 11:32:46 --> Duplicate entry 'gaga@gmail.com' for key 'Email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (\'wewdw\', \'gaga@gmail.com\', \'$2y$10$jZqIvzf/T8Ad.cPLGNacDOGVc8o/uehznC9HEGK8vB/l23hM2.55K\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (\'wewdw\', \'gaga@gmail.com\', \'$2y$10$jZqIvzf/T8Ad.cPLGNacDOGVc8o/uehznC9HEGK8vB/l23hM2.55K\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (\'wewdw\', \'gaga@gmail.com\', \'$2y$10$jZqIvzf/T8Ad.cPLGNacDOGVc8o/uehznC9HEGK8vB/l23hM2.55K\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (:Nombre:, :Email:, :Contrasena:)', [...], false)
+ 5 APPPATH\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\registrar.php(58): App\Models\Registrar_modelo->registrar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 11:32:57 --> mysqli_sql_exception: Duplicate entry 'gaga@gmail.com' for key 'Email' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(58): App\Models\Registrar_modelo->registrar(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-18 11:32:57 --> Duplicate entry 'gaga@gmail.com' for key 'Email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (\'dsfsdfsd\', \'gaga@gmail.com\', \'$2y$10$9O6/pUa9UgU8QG3xYsV3EuMaSzHJt4kAN8cHCSZA7VQKjxrYw9GQi\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (\'dsfsdfsd\', \'gaga@gmail.com\', \'$2y$10$9O6/pUa9UgU8QG3xYsV3EuMaSzHJt4kAN8cHCSZA7VQKjxrYw9GQi\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (\'dsfsdfsd\', \'gaga@gmail.com\', \'$2y$10$9O6/pUa9UgU8QG3xYsV3EuMaSzHJt4kAN8cHCSZA7VQKjxrYw9GQi\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`Nombre`, `Email`, `Contrasena`) VALUES (:Nombre:, :Email:, :Contrasena:)', [...], false)
+ 5 APPPATH\Models\registrar_modelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\registrar.php(58): App\Models\Registrar_modelo->registrar([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:43:56 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:44:11 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:44:12 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:44:12 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:44:12 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:44:57 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:44:58 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:44:58 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:45:21 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:45:22 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:45:51 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:49:40 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:49:40 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:49:40 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH\Models\registrar_modelo.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\registrar_modelo')
+ 3 APPPATH\Controllers\registrar.php(47): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\registrar_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 11:52:50 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+in APPPATH\Models\registrar_modelo.php on line 12.
+ 1 APPPATH\Models\registrar_modelo.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class CodeIgniter\\Database\\MySQLi\\Result could not be converted to int', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\registrar_modelo.php', 12)
+ 2 APPPATH\Controllers\registrar.php(58): App\Models\Registrar_modelo->registrar([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:02:30 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\sp_registrar.php on line 30.
+ 1 APPPATH\Views\sp_registrar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\sp_registrar.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\sp_registrar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sp_registrar', [], true)
+ 5 APPPATH\Controllers\registrar.php(62): view('sp_registrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresar_datos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:19:46 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\login.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:21:33 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\login.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->cargar_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:21:34 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\login.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->cargar_login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:55:38 --> Call to undefined method CodeIgniter\Router\RouteCollection::posts()
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 12:55:39 --> Call to undefined method CodeIgniter\Router\RouteCollection::posts()
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\Router\RouteCollection.php(267): require()
+ 2 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:41:49 --> Invalid file: "sp_login .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sp_login .php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sp_login ', [], true)
+ 3 APPPATH\Controllers\login.php(33): view('sp_login ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:42:36 --> Invalid file: "sp_login .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sp_login .php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sp_login ', [], true)
+ 3 APPPATH\Controllers\login.php(33): view('sp_login ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:43:51 --> Class "App\Controllers\login_modelo" not found
+in APPPATH\Controllers\login.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:44:19 --> Trying to access array offset on value of type null
+in APPPATH\Models\login_modelo.php on line 11.
+ 1 APPPATH\Models\login_modelo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\login_modelo.php', 11)
+ 2 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:44:47 --> Trying to access array offset on value of type null
+in APPPATH\Models\login_modelo.php on line 11.
+ 1 APPPATH\Models\login_modelo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\login_modelo.php', 11)
+ 2 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:46:39 --> Trying to access array offset on value of type null
+in APPPATH\Models\login_modelo.php on line 11.
+ 1 APPPATH\Models\login_modelo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\login_modelo.php', 11)
+ 2 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:48:03 --> Trying to access array offset on value of type null
+in APPPATH\Models\login_modelo.php on line 11.
+ 1 APPPATH\Models\login_modelo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\login_modelo.php', 11)
+ 2 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:49:00 --> Trying to access array offset on value of type null
+in APPPATH\Models\login_modelo.php on line 11.
+ 1 APPPATH\Models\login_modelo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\login_modelo.php', 11)
+ 2 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:49:07 --> Trying to access array offset on value of type null
+in APPPATH\Models\login_modelo.php on line 11.
+ 1 APPPATH\Models\login_modelo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\login_modelo.php', 11)
+ 2 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:50:23 --> Unclosed '{' on line 5
+in APPPATH\Models\login_modelo.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\login_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\login_modelo')
+ 3 APPPATH\Controllers\login.php(38): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\login_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:50:41 --> Undefined variable $resultado
+in APPPATH\Controllers\login.php on line 40.
+ 1 APPPATH\Controllers\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:52:46 --> Invalid file: "sp_login .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sp_login .php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sp_login ', [], true)
+ 3 APPPATH\Controllers\login.php(33): view('sp_login ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:53:22 --> Invalid file: "sp_login .php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sp_login .php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sp_login ', [], true)
+ 3 APPPATH\Controllers\login.php(33): view('sp_login ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:57:21 --> Cannot access offset of type string on string
+in APPPATH\Models\login_modelo.php on line 12.
+ 1 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login('alejo@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 13:58:15 --> Cannot access offset of type string on string
+in APPPATH\Models\login_modelo.php on line 12.
+ 1 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login('alejo@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:57:39 --> Cannot access offset of type string on string
+in APPPATH\Models\login_modelo.php on line 12.
+ 1 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login('alejo@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:57:58 --> Cannot access offset of type string on string
+in APPPATH\Models\login_modelo.php on line 12.
+ 1 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login('alejo@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:58:46 --> Cannot access offset of type string on string
+in APPPATH\Models\login_modelo.php on line 12.
+ 1 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login('alejo@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:59:08 --> Cannot access offset of type string on string
+in APPPATH\Models\login_modelo.php on line 12.
+ 1 APPPATH\Controllers\login.php(39): App\Models\Login_modelo->login('alejo@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:59:35 --> Undefined variable $resultado
+in APPPATH\Controllers\login.php on line 42.
+ 1 APPPATH\Controllers\login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 14:59:54 --> Undefined variable $resultados
+in APPPATH\Controllers\login.php on line 42.
+ 1 APPPATH\Controllers\login.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultados', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:01:19 --> Array to string conversion
+in APPPATH\Controllers\login.php on line 40.
+ 1 APPPATH\Controllers\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:02:46 --> Undefined array key "Contrasena"
+in APPPATH\Controllers\login.php on line 40.
+ 1 APPPATH\Controllers\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Contrasena"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:03:17 --> Undefined array key "password"
+in APPPATH\Controllers\login.php on line 40.
+ 1 APPPATH\Controllers\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:08:39 --> Array to string conversion
+in APPPATH\Controllers\login.php on line 40.
+ 1 APPPATH\Controllers\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:12:29 --> Array to string conversion
+in APPPATH\Controllers\login.php on line 40.
+ 1 APPPATH\Controllers\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 15:15:44 --> Undefined variable $resultados
+in APPPATH\Controllers\login.php on line 41.
+ 1 APPPATH\Controllers\login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultados', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:26:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\login.php on line 41.
+ 1 APPPATH\Controllers\login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:27:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\login.php on line 41.
+ 1 APPPATH\Controllers\login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:27:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\login.php on line 41.
+ 1 APPPATH\Controllers\login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:28:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\login.php on line 41.
+ 1 APPPATH\Controllers\login.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 16:31:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\login.php on line 40.
+ 1 APPPATH\Controllers\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

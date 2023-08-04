@@ -1,0 +1,439 @@
+INFO - 2023-08-04 11:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 11:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 12:15:14 --> Undefined variable $dato1
+in APPPATH\Controllers\recibir_nodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato1', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:16:05 --> syntax error, unexpected variable "$response"
+in APPPATH\Controllers\recibir_nodemcu.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\recibir_nodemcu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\recibir_nodemcu')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\recibir_nodemcu', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:16:55 --> syntax error, unexpected variable "$response"
+in APPPATH\Controllers\recibir_nodemcu.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\recibir_nodemcu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\recibir_nodemcu')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\recibir_nodemcu', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:17:45 --> syntax error, unexpected variable "$response"
+in APPPATH\Controllers\recibir_nodemcu.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\recibir_nodemcu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\recibir_nodemcu')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\recibir_nodemcu', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:18:35 --> Undefined variable $idUser
+in APPPATH\Models\nodemcu_modelo.php on line 38.
+ 1 APPPATH\Models\nodemcu_modelo.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idUser', 'C:\\xampp\\htdocs\\Disertus\\app\\Models\\nodemcu_modelo.php', 38)
+ 2 APPPATH\Controllers\recibir_nodemcu.php(11): App\Models\Nodemcu_modelo->selectDatos('3CD8224055B0')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:19:25 --> Undefined variable $dato1
+in APPPATH\Controllers\recibir_nodemcu.php on line 18.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato1', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:20:16 --> Undefined variable $dato1
+in APPPATH\Controllers\recibir_nodemcu.php on line 18.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato1', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:21:06 --> Undefined array key "TiempoDucha"
+in APPPATH\Controllers\recibir_nodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TiempoDucha"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:21:23 --> Undefined array key "TiempoDucha"
+in APPPATH\Controllers\recibir_nodemcu.php on line 15.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TiempoDucha"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:21:56 --> Undefined variable $response
+in APPPATH\Controllers\recibir_nodemcu.php on line 20.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:23:24 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:23:37 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:24:27 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:25:17 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:26:07 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:26:57 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:27:48 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:28:38 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:29:28 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:30:18 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:31:08 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:31:58 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:32:49 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:33:39 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:34:29 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:35:19 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:36:09 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:36:59 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:37:50 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:38:40 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:39:30 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:40:20 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:41:10 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:42:00 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:42:51 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:43:41 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:44:31 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:45:21 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:46:11 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:47:01 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:47:52 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:48:42 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:49:32 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:50:22 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:51:12 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 13.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:52:02 --> Undefined array key "TiempoDucha"
+in APPPATH\Controllers\recibir_nodemcu.php on line 23.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TiempoDucha"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:52:26 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\recibir_nodemcu.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:52:53 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\recibir_nodemcu.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:52:57 --> Undefined array key "TiempoDucha"
+in APPPATH\Controllers\recibir_nodemcu.php on line 24.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "TiempoDucha"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:55:24 --> syntax error, unexpected token "return", expecting "]"
+in APPPATH\Controllers\recibir_nodemcu.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\recibir_nodemcu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\recibir_nodemcu')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\recibir_nodemcu', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:56:14 --> syntax error, unexpected token "return", expecting "]"
+in APPPATH\Controllers\recibir_nodemcu.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\recibir_nodemcu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\recibir_nodemcu')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\recibir_nodemcu', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:56:19 --> syntax error, unexpected token "return", expecting "]"
+in APPPATH\Controllers\recibir_nodemcu.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\recibir_nodemcu')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\recibir_nodemcu')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\recibir_nodemcu', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 12:59:35 --> Attempt to read property "Nombre" on string
+in APPPATH\Controllers\recibir_nodemcu.php on line 14.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nombre" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-04 13:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-04 13:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 13:01:16 --> Attempt to read property "Nombre" on array
+in APPPATH\Controllers\recibir_nodemcu.php on line 12.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nombre" on array', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-04 13:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-04 13:02:38 --> Attempt to read property "Nombre" on array
+in APPPATH\Controllers\recibir_nodemcu.php on line 12.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nombre" on array', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 13:02:56 --> Attempt to read property "Nombre" on array
+in APPPATH\Controllers\recibir_nodemcu.php on line 12.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Nombre" on array', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 13:03:02 --> Undefined array key "Nombre"
+in APPPATH\Controllers\recibir_nodemcu.php on line 12.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nombre"', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-04 13:04:37 --> Undefined variable $res
+in APPPATH\Controllers\recibir_nodemcu.php on line 14.
+ 1 APPPATH\Controllers\recibir_nodemcu.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $res', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibir_nodemcu.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Recibir_nodemcu->recibir_datos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recibir_nodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

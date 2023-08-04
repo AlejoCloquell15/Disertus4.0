@@ -1,0 +1,431 @@
+CRITICAL - 2023-06-13 11:39:42 --> syntax error, unexpected variable "$datos", expecting ")"
+in APPPATH\Models\session_modelo.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\session_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\session_modelo')
+ 3 APPPATH\Controllers\login.php(48): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\session_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 11:40:21 --> Cannot declare class App\Models\Login_modelo, because the name is already in use
+in APPPATH\Models\session_modelo.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-13 11:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 11:41:24 --> mysqli_sql_exception: Unknown column 'Token' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FR...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FR...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FR...')
+#3 C:\xampp\htdocs\Disertus\app\Models\login_modelo.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Token FR...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\login.php(95): App\Models\Login_modelo->agregar_token(Array, '5')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->login()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 11:41:24 --> Unknown column 'Token' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 4 APPPATH\Models\login_modelo.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 5 APPPATH\Controllers\login.php(95): App\Models\Login_modelo->agregar_token([...], '5')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:42:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 11:42:58 --> mysqli_sql_exception: Unknown column 'Token' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FR...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FR...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FR...')
+#3 C:\xampp\htdocs\Disertus\app\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT Token FR...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\login.php(95): App\Models\Session_modelo->agregar_token(Array, '5')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->login()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 11:42:58 --> Unknown column 'Token' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 4 APPPATH\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 5 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 11:44:17 --> mysqli_sql_exception: Unknown column 'Token' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FR...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FR...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FR...')
+#3 C:\xampp\htdocs\Disertus\app\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT Token FR...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\login.php(95): App\Models\Session_modelo->agregar_token(Array, '5')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->login()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 11:44:17 --> Unknown column 'Token' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 4 APPPATH\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 5 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 11:45:13 --> mysqli_sql_exception: Unknown column 'Token' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FR...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FR...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FR...')
+#3 C:\xampp\htdocs\Disertus\app\Models\session_modelo.php(12): CodeIgniter\Database\BaseConnection->query('SELECT Token FR...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\login.php(95): App\Models\Session_modelo->agregar_token(Array, '5')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->login()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 11:45:13 --> Unknown column 'Token' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 4 APPPATH\Models\session_modelo.php(12): CodeIgniter\Database\BaseConnection->query('SELECT Token FROM usuarios WHERE IdUsuario = \'5\'')
+ 5 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 11:46:25 --> Class "5" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 580.
+ 1 APPPATH\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('UPDATE session SET Token = ?, Expiracion = ?, Expiracion = ?', '===Z!ZACUMaDLfDqq5xyseXReFuZR"xmCwzddTRCEV1(t!Fl?P', true, '5')
+ 2 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 11:46:50 --> Class "5" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 580.
+ 1 APPPATH\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('UPDATE session SET Token = ?, Expiracion = ?, Expiracion = ?', 'NkW)iUrj4)gYFa7XZ$PciArrryBMfkqT0JFqecKA/D6e)CO$Bp', true, '5')
+ 2 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 11:47:28 --> Class "5" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 580.
+ 1 APPPATH\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('UPDATE session SET Token = ?, Expiracion = ?, IdUsuario', '7CAs?pw82N?SZM?oFhG7(l?cF7M"C=Z3cmWuRZ!xi)XvEj0sqq', true, '5')
+ 2 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 11:48:42 --> Class "5" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 580.
+ 1 APPPATH\Models\session_modelo.php(12): CodeIgniter\Database\BaseConnection->query('UPDATE session SET Token = ?, Expiracion = ?, IdUsuario', '11Ea0Eg=cyPW$W!Ue!9!24m/)Ev=rbE(Wq)EwWsp/qrCTq65Ka', true, '5')
+ 2 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 11:50:29 --> Class "5" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 580.
+ 1 APPPATH\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('UPDATE session SET Token = ?, Expiracion = ?, IdUsuario = ?', 't&3gKUHcfnF9vvM"N!BDv4QqW0?tmsjwk(cl?vfnfYVi2VS9uJ', true, '5')
+ 2 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 11:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 11:53:10 --> Class "5" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 580.
+ 1 APPPATH\Models\session_modelo.php(11): CodeIgniter\Database\BaseConnection->query('UPDATE session SET Token = ?, Expiracion = ?, IdUsuario = ?', 'K!(e=TS9eZ6=gTPeL0GmoZ5=CWn"UVs)0TBk((cVE4iWRr(Tsx', true, '5')
+ 2 APPPATH\Controllers\login.php(95): App\Models\Session_modelo->agregar_token([...], '5')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 12:12:55 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\login.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 12:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 12:13:20 --> mysqli_sql_exception: Unknown column 'Expiracion' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Expiraci...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Expiraci...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Expiraci...')
+#3 C:\xampp\htdocs\Disertus\app\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('SELECT Expiraci...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\pagina_principal.php(11): App\Models\Login_modelo->fecha_expiracion('2sBpNMQ&vBGrCNe...')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 12:13:20 --> Unknown column 'Expiracion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Expiracion FROM usuarios WHERE Token = \'2sBpNMQ&vBGrCNeV5!KZ4I5g&N3e/m1pBNpKEPbT8U7/5CmjB)\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Expiracion FROM usuarios WHERE Token = \'2sBpNMQ&vBGrCNeV5!KZ4I5g&N3e/m1pBNpKEPbT8U7/5CmjB)\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Expiracion FROM usuarios WHERE Token = \'2sBpNMQ&vBGrCNeV5!KZ4I5g&N3e/m1pBNpKEPbT8U7/5CmjB)\'')
+ 4 APPPATH\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('SELECT Expiracion FROM usuarios WHERE Token = \'2sBpNMQ&vBGrCNeV5!KZ4I5g&N3e/m1pBNpKEPbT8U7/5CmjB)\'')
+ 5 APPPATH\Controllers\pagina_principal.php(11): App\Models\Login_modelo->fecha_expiracion('2sBpNMQ&vBGrCNeV5!KZ4I5g&N3e/m1pBNpKEPbT8U7/5CmjB)')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 12:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 12:13:44 --> mysqli_sql_exception: Unknown column 'Expiracion' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Expiraci...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Expiraci...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Expiraci...')
+#3 C:\xampp\htdocs\Disertus\app\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('SELECT Expiraci...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\pagina_principal.php(11): App\Models\Login_modelo->fecha_expiracion('tAQ)OL6&l)fylwa...')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 12:13:44 --> Unknown column 'Expiracion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT Expiracion FROM usuarios WHERE Token = \'tAQ)OL6&l)fylwaeHXYj$JWkQux&jeY?rL/x54KyQne$$excOC\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Expiracion FROM usuarios WHERE Token = \'tAQ)OL6&l)fylwaeHXYj$JWkQux&jeY?rL/x54KyQne$$excOC\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Expiracion FROM usuarios WHERE Token = \'tAQ)OL6&l)fylwaeHXYj$JWkQux&jeY?rL/x54KyQne$$excOC\'')
+ 4 APPPATH\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('SELECT Expiracion FROM usuarios WHERE Token = \'tAQ)OL6&l)fylwaeHXYj$JWkQux&jeY?rL/x54KyQne$$excOC\'')
+ 5 APPPATH\Controllers\pagina_principal.php(11): App\Models\Login_modelo->fecha_expiracion('tAQ)OL6&l)fylwaeHXYj$JWkQux&jeY?rL/x54KyQne$$excOC')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 12:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 12:23:15 --> syntax error, unexpected token "}"
+in APPPATH\Models\session_modelo.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\session_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\session_modelo')
+ 3 APPPATH\Controllers\login.php(48): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\session_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-13 12:43:21 --> Unclosed '(' on line 16 does not match '}'
+in APPPATH\Models\session_modelo.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Disertus\\app\\Models\\session_modelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\session_modelo')
+ 3 APPPATH\Controllers\login.php(48): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\session_modelo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 12:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 12:52:23 --> mysqli_sql_exception: Unknown column 'Token' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE usuarios...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE usuarios...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE usuarios...')
+#3 C:\xampp\htdocs\Disertus\app\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('UPDATE usuarios...', Array)
+#4 C:\xampp\htdocs\Disertus\app\Controllers\pagina_principal.php(33): App\Models\Login_modelo->eliminar_token('5')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Pagina_principal->eliminar_token()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 12:52:23 --> Unknown column 'Token' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE usuarios SET Token = NULL, Expiracion = NULL WHERE IdUsuario = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE usuarios SET Token = NULL, Expiracion = NULL WHERE IdUsuario = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE usuarios SET Token = NULL, Expiracion = NULL WHERE IdUsuario = \'5\'')
+ 4 APPPATH\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('UPDATE usuarios SET Token = ?, Expiracion = ? WHERE IdUsuario = ?', [...])
+ 5 APPPATH\Controllers\pagina_principal.php(33): App\Models\Login_modelo->eliminar_token('5')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->eliminar_token()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 12:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-13 12:53:18 --> mysqli_sql_exception: Unknown column 'Token' in 'field list' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE usuarios...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE usuarios...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE usuarios...')
+#3 C:\xampp\htdocs\Disertus\app\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('UPDATE usuarios...', Array)
+#4 C:\xampp\htdocs\Disertus\app\Controllers\pagina_principal.php(33): App\Models\Login_modelo->eliminar_token('5')
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Pagina_principal->eliminar_token()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-13 12:53:18 --> Unknown column 'Token' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE usuarios SET Token = NULL, Expiracion = NULL WHERE IdUsuario = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE usuarios SET Token = NULL, Expiracion = NULL WHERE IdUsuario = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE usuarios SET Token = NULL, Expiracion = NULL WHERE IdUsuario = \'5\'')
+ 4 APPPATH\Models\login_modelo.php(29): CodeIgniter\Database\BaseConnection->query('UPDATE usuarios SET Token = ?, Expiracion = ? WHERE IdUsuario = ?', [...])
+ 5 APPPATH\Controllers\pagina_principal.php(33): App\Models\Login_modelo->eliminar_token('5')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->eliminar_token()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 12:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 12:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 13:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 13:00:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 14:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 14:47:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 15:16:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 15:16:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 15:16:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 15:16:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 15:16:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 15:16:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-13 15:16:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\pagina_principal.php on line 16.
+ 1 APPPATH\Controllers\pagina_principal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\pagina_principal.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pagina_principal->cargar_pp()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina_principal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-13 15:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 15:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-13 15:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

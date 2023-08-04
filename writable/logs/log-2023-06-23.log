@@ -1,0 +1,180 @@
+ERROR - 2023-06-23 13:05:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:05:08 --> 220 smtp.googlemail.com ESMTP b13-20020a056870160d00b0019ed407a72esm5498128oae.16 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b13-20020a056870160d00b0019ed407a72esm5498128oae.16 - gsmtp
+
+ERROR - 2023-06-23 13:07:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:07:26 --> 220 smtp.googlemail.com ESMTP b36-20020a056870392400b001aa1779d0besm5510823oap.7 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b36-20020a056870392400b001aa1779d0besm5510823oap.7 - gsmtp
+
+ERROR - 2023-06-23 13:09:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:09:09 --> 220 smtp.googlemail.com ESMTP l3-20020a056830154300b006af7580c84csm1012314otp.60 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l3-20020a056830154300b006af7580c84csm1012314otp.60 - gsmtp
+
+ERROR - 2023-06-23 13:10:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:10:43 --> 220 smtp.googlemail.com ESMTP z6-20020a056808048600b0039838671e5asm4073807oid.58 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z6-20020a056808048600b0039838671e5asm4073807oid.58 - gsmtp
+
+ERROR - 2023-06-23 13:20:40 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in C:\xampp\htdocs\Disertus\system\Email\Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1883)
+#1 C:\xampp\htdocs\Disertus\system\Email\Email.php(1883): stream_socket_enable_crypto(Resource id #110, true, 121)
+#2 C:\xampp\htdocs\Disertus\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Disertus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Disertus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Disertus\app\Controllers\login.php(129): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->correo()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-23 13:20:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:20:40 --> 220 smtp.googlemail.com ESMTP g19-20020a9d6b13000000b006af78565d64sm3823963otp.46 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError g19-20020a9d6b13000000b006af78565d64sm3823963otp.46 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError g19-20020a9d6b13000000b006af78565d64sm3823963otp.46 - gsmtp
+
+ERROR - 2023-06-23 13:31:22 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in C:\xampp\htdocs\Disertus\system\Email\Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1883)
+#1 C:\xampp\htdocs\Disertus\system\Email\Email.php(1883): stream_socket_enable_crypto(Resource id #110, true, 121)
+#2 C:\xampp\htdocs\Disertus\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Disertus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Disertus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Disertus\app\Controllers\login.php(129): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->correo()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-23 13:31:22 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:31:22 --> 220 smtp.googlemail.com ESMTP fq13-20020a0568710b0d00b001a66a48a68asm5492892oab.57 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError fq13-20020a0568710b0d00b001a66a48a68asm5492892oab.57 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError fq13-20020a0568710b0d00b001a66a48a68asm5492892oab.57 - gsmtp
+
+ERROR - 2023-06-23 13:33:02 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in C:\xampp\htdocs\Disertus\system\Email\Email.php:1883
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1883)
+#1 C:\xampp\htdocs\Disertus\system\Email\Email.php(1883): stream_socket_enable_crypto(Resource id #110, true, 121)
+#2 C:\xampp\htdocs\Disertus\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\Disertus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\Disertus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\Disertus\app\Controllers\login.php(129): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->correo()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-23 13:33:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:33:02 --> 220 smtp.googlemail.com ESMTP z8-20020a05683020c800b006a3bd777dfdsm3761565otq.12 - gsmtp
+
+hello: 250-smtp.googlemail.com at your service, [190.247.34.78]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError z8-20020a05683020c800b006a3bd777dfdsm3761565otq.12 - gsmtp
+
+The following SMTP error was encountered: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError z8-20020a05683020c800b006a3bd777dfdsm3761565otq.12 - gsmtp
+
+ERROR - 2023-06-23 13:33:16 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\Disertus\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\Disertus\system\Email\Email.php(1735): mail('valentinoripant...', '=?UTF-8?Q?Recup...', 'Haga clic en el...', 'Date: Fri, 23 J...', '-f agustincloqu...')
+#2 C:\xampp\htdocs\Disertus\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\Disertus\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\Disertus\app\Controllers\login.php(129): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Login->correo()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-23 13:33:16 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 13:33:16 --> 
+ERROR - 2023-06-23 14:23:44 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 14:23:44 --> 
