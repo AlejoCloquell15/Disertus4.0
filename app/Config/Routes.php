@@ -44,10 +44,11 @@ $routes->get('/cargar_pp', 'pagina_principal::cargar_pp');
 $routes->get('/eliminar_token', 'pagina_principal::eliminar_token');
 $routes->get('/recibir_nodemcu', 'recibir_nodemcu::recibir_datos'); $routes->post('/recibir_nodemcu', 'recibir_nodemcu::recibir_datos');
 $routes->get('/recibir_nodemcu_prueba', 'recibir_nodemcu::recibir_datos_prueba'); $routes->post('/recibir_nodemcu_prueba', 'recibir_nodemcu::recibir_datos_prueba');
-$routes->get('/enviar_correo', 'login::correo');
+$routes->get('/enviar_correo', 'recuperar_password::correo'); $routes->post('/enviar_correo', 'recuperar_password::correo');
 $routes->post('/datos_dispositivo', 'datos_dispositivo::datos_dispositivo');
 $routes->post('/cargarNodemcu', 'datos_dispositivo::cargarNodemcu');
 $routes->post('/cargarSpConf', 'datos_dispositivo::cargarSpConf');
+$routes->get('/cargar_recuperacion', 'recuperar_password::cargar_recuperacion');
 
 /*
  * --------------------------------------------------------------------

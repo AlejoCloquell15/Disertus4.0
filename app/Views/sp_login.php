@@ -29,7 +29,7 @@
        <form action="<?php echo base_url();?>registrar">
        <input type="submit" value="Registrate Aqui">
        <br>
-       <p>Si haz olvidado tu contraseña haz click</p><a href="<?php echo base_url();?>enviar_correo">aqui para recuperarla</a></p>
+       <p>Si haz olvidado tu contraseña haz click</p><a href="<?php echo base_url();?>cargar_recuperacion">aqui para recuperarla</a></p>
     </form>
 </body>
 </html>
