@@ -2,23 +2,23 @@
  
 use CodeIgniter\Model;
  
-class Session_modelo extends Model {
+class SessionModelo extends Model {
     protected $table = 'session';
     protected $primaryKey = 'IdSession';
     protected $allowedFields = ['Token', 'Expiracion', 'IdUsuario'];
 
-    public function agregar_token($datos){
+    public function agregarToken($datos){
         $registrar = $this->db->table('session');
         $registrar->insert($datos);
     }
 
-    public function eliminar_token($id){
+    public function eliminarToken($id){
         $sql =  $this->db->query("DELETE FROM session WHERE IdUsuario = '{$id}'");
     }
 
-    public function fecha_expiracion($token){
+    public function fechaExpiracion($token){
         $sql = $this->db->query("SELECT Expiracion FROM session WHERE Token = '{$token}'");
-        $fecha_expiracion = $sql->getRowArray();
-        return $fecha_expiracion;
+        $fechaExpiracion = $sql->getRowArray();
+        return $fechaExpiracion;
     }
 }

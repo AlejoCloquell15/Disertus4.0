@@ -1,14 +1,14 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\nodemcu_modelo;
+use App\Models\nodemcuModelo;
 
-class Recibir_nodemcu extends BaseController{
+class RecibirNodemcu extends BaseController{
     public function recibir_datos(){
         $idNodemcu = $this->request->getPost('dato1');
 
-        $nodemcu_modelo = new nodemcu_modelo();
-        $resultado = $nodemcu_modelo->selectDatos($idNodemcu);
+        $nodemcuModelo = new nodemcuModelo();
+        $resultado = $nodemcuModelo->selectDatos($idNodemcu);
         //var_dump($resultado);
          $response = [
             'tiempoDucha' => $resultado['TiempoDucha'],
@@ -21,7 +21,7 @@ class Recibir_nodemcu extends BaseController{
         return $this->response->setJSON($response);
     }
 
-    public function recibir_datos_prueba(){
+    public function recibirDatosPrueba(){
         $dato1 = $this->request->getPost('dato1');
         $dato2 = $this->request->getPost('dato2');
 

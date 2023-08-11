@@ -30,25 +30,25 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/nosotros', 'Home::nosotros');
-$routes->get('/Como_funciona', 'Home::Como_funciona');
+$routes->get('/ComoFunciona', 'Home::ComoFunciona');
 $routes->get('/menu', 'Home::menu');
 $routes->get('/', 'Home::index');
 $routes->get('/registrar', 'registrar::registrar');
-$routes->post('/ingresar_datos', 'registrar::ingresar_datos');
-$routes->get('/ingresar_datos', 'registrar::ingresar_datos');
-$routes->get('/cargar_login', 'login::cargar_login');
+$routes->post('/ingresarDatos', 'registrar::ingresarDatos');
+$routes->get('/ingresarDatos', 'registrar::ingresarDatos');
+$routes->get('/cargarLogin', 'login::cargarLogin');
 $routes->post('/login', 'login::login');
-$routes->post('/cerrar_session', 'login::cerrar_session');
-$routes->get('/cerrar_session', 'login::cerrar_session');
-$routes->get('/cargar_pp', 'pagina_principal::cargar_pp');
-$routes->get('/eliminar_token', 'pagina_principal::eliminar_token');
-$routes->get('/recibir_nodemcu', 'recibir_nodemcu::recibir_datos'); $routes->post('/recibir_nodemcu', 'recibir_nodemcu::recibir_datos');
-$routes->get('/recibir_nodemcu_prueba', 'recibir_nodemcu::recibir_datos_prueba'); $routes->post('/recibir_nodemcu_prueba', 'recibir_nodemcu::recibir_datos_prueba');
-$routes->get('/enviar_correo', 'recuperar_password::correo'); $routes->post('/enviar_correo', 'recuperar_password::correo');
-$routes->post('/datos_dispositivo', 'datos_dispositivo::datos_dispositivo');
-$routes->post('/cargarNodemcu', 'datos_dispositivo::cargarNodemcu');
-$routes->post('/cargarSpConf', 'datos_dispositivo::cargarSpConf');
-$routes->get('/cargar_recuperacion', 'recuperar_password::cargar_recuperacion');
+$routes->post('/cerrarSession', 'login::cerrarSession');
+$routes->get('/cerrarSession', 'login::cerrarSession');
+$routes->get('/cargarPp', 'paginaPrincipal::cargarPp');
+$routes->get('/eliminarToken', 'paginaPrincipal::eliminarToken');
+$routes->get('/recibirNodemcu', 'recibirNodemcu::recibirDatos'); $routes->post('/recibirNodemcu', 'recibirNodemcu::recibirDatos');
+$routes->get('/recibirNodemcu_prueba', 'recibirNodemcu::recibirDatos_prueba'); $routes->post('/recibirNodemcu_prueba', 'recibirNodemcu::recibirDatos_prueba');
+$routes->get('/enviarCorreo', 'recuperarPassword::correo'); $routes->post('/enviarCorreo', 'recuperarPassword::correo');
+$routes->post('/datosDispositivo', 'datosDispositivo::datosDispositivo');
+$routes->post('/cargarNodemcu', 'datosDispositivo::cargarNodemcu');
+$routes->post('/cargarSpConf', 'datosDispositivo::cargarSpConf');
+$routes->get('/cargarRecuperacion', 'recuperarPassword::cargarRecuperacion');
 
 /*
  * --------------------------------------------------------------------

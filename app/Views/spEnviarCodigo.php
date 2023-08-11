@@ -10,12 +10,12 @@
     <p>Pulsa en "Enviar Codigo" y enviaremos uno a tu correo, introducelo aqui. Tienes 1 minuto hasta que expire.</p>
     <p>Si es necesario pulsa nuevemente el boton y reenviaremos el codigo</p>
     <br>
-    <form action="<?php echo base_url();?>enviar_codigo" method="post">
-    <input type="number" name="codigo_usuario">
-    <input type="text" value="<?php if(isset($IdUsuario)){echo $IdUsuario;}?>" name="id_usuario" readonly>
+    <form action="<?php echo base_url();?>enviarCodigo" method="post">
+    <input type="number" name="codigoUsuario">
+    <input type="text" value="<?php if(isset($IdUsuario)){echo $IdUsuario;}?>" name="idUsuario" readonly>
     <br><br>
-    <input type="submit" value="Enviar nuevo codigo" name="boton_codigo">
-    <input type="submit" value="Verificar" name="boton_verificar">
+    <input type="submit" value="Enviar nuevo codigo" name="botonCodigo">
+    <input type="submit" value="Verificar" name="botonVerificar">
     </form>
     <?php if(isset($Mensaje)){
         echo "<br>".$Mensaje;

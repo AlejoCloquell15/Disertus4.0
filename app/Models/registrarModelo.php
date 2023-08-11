@@ -2,7 +2,7 @@
  
 use CodeIgniter\Model;
  
-class Registrar_modelo extends Model {
+class RegistrarModelo extends Model {
     protected $table = 'usuarios';
     protected $primaryKey = 'IdUsuario';
     protected $allowedFields = ['Nombre','Email','Contrasena','Tipo'];

@@ -2,13 +2,13 @@
 
 namespace App\Controllers;
 use App\Libraries\Hash;
-use App\Models\login_modelo;
-use App\Models\session_modelo;
+use App\Models\loginModelo;
+use App\Models\sessionModelo;
 use CodeIgniter\Email\Email;
 
 class Login extends BaseController{
-    public function cargar_login(){
-        return view('sp_login');
+    public function cargarLogin(){
+        return view('spLogin');
     } 
 
     public function login(){
@@ -38,31 +38,31 @@ class Login extends BaseController{
             if($validation == false){
                 //Consigo los errores de validacion por medio de la lbreria validation    
                 $data['validar'] = $validar->getErrors('email', 'password');
-                return view('sp_login', $data);
+                return view('spLogin', $data);
             }else{
                 //Recibo los datos del formulario
                 $email = $this->request->getPost('email');
                 $password = $this->request->getPost('password');
 
                 //Rescatamos la contraseña del usuario
-                $login_modelo = new login_modelo();
-                $session_modelo = new session_modelo();
+                $loginModelo = new loginModelo();
+                $sessionModelo = new sessionModelo();
 
-                $contra = $login_modelo->login($email);
+                $contra = $loginModelo->login($email);
 
                 if(!$contra){
-                    $mail_incorrecto = [
+                    $mailIncorrecto = [
                         'mensaje' => "La contraseña o el mail es incorrecto, intente nuevamente.",
                     ];
-                    return view('sp_login', $mail_incorrecto);
+                    return view('spLogin', $mailIncorrecto);
                 }
                 //Chequeamos la contraseña
-                $check_password = Hash::check($password, $contra['Contrasena']);
-                if($check_password == false){
+                $checkPassword = Hash::check($password, $contra['Contrasena']);
+                if($checkPassword == false){
                     $mensaje = [
                         'mensaje' => "La contraseña o el mail son incorrectos, intente nuevamente.",
                     ];
-                    return view('sp_login', $mensaje);
+                    return view('spLogin', $mensaje);
                 }else{
                     //Genero un token aleatorio
                     $caracteres='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"$&/()=?!';
@@ -77,43 +77,43 @@ class Login extends BaseController{
                     $token = session('token');
 
                     //Consulto el id y lo guardo en una variable de sesion
-                    $idu = $login_modelo->sacar_id_usuario($email);
+                    $idu = $loginModelo->sacarIdUsuario($email);
                     session()->set('idUser', $idu['IdUsuario']);
-                    $id_usuario = session('idUser');
+                    $idUsuario = session('idUser');
 
                     $currentDateTime = new \DateTime(); 
 
                     $interval = new \DateInterval('PT30M'); 
                     $currentDateTime->add($interval); 
 
-                    $fecha_adelantada = $currentDateTime->format('Y-m-d H:i:s');
+                    $fechaAdelantada = $currentDateTime->format('Y-m-d H:i:s');
                     
                     $datos = [
                         'Token' => $token,
-                        'Expiracion' => $fecha_adelantada,
-                        'IdUsuario' => $id_usuario,
+                        'Expiracion' => $fechaAdelantada,
+                        'IdUsuario' => $idUsuario,
                     ];
 
-                    $insertar = $session_modelo->agregar_token($datos);
+                    $insertar = $sessionModelo->agregarToken($datos);
 
-                    return view('sp_pagina_principal');
+                    return view('spPaginaPrincipal');
                     //$token = session('token');
-                    //echo $id_usuario;
+                    //echo $idUsuario;
                 }
         } 
     } 
 
-    public function cerrar_session(){
+    public function cerrarSession(){
         $session = \Config\Services::session();
-        $session_modelo = new session_modelo();
-        $id_usuario = session('idUser');
+        $sessionModelo = new sessionModelo();
+        $idUsuario = session('idUser');
 
-        $session_modelo->eliminar_token($id_usuario);
+        $sessionModelo->eliminarToken($idUsuario);
 
         unset($_SESSION['token']);
         unset($_SESSION['idUser']);
 
-        return redirect()->route('cargar_login');
+        return redirect()->route('cargarLogin');
     }
 
     public function correo(){

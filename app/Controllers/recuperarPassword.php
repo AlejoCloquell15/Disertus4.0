@@ -1,43 +1,43 @@
 <?php
 namespace App\Controllers;
-use App\Models\login_modelo;
-use App\Models\recuperar_password_modelo;
+use App\Models\loginModelo;
+use App\Models\recuperarPasswordModelo;
 use App\Libraries\Hash;
 
 
 class Recuperar_password extends BaseController{
-    public function cargar_recuperacion(){
-        return view('sp_enviar_correo');
+    public function cargarRecuperacion(){
+        return view('spEnviarCorreo');
     }
 
     public function correo(){
-        $login_modelo = new Login_modelo();
-        $recuperar_password_modelo = new Recuperar_password_modelo();
+        $loginModelo = new LoginModelo();
+        $recuperarPasswordModelo = new RecuperarPasswordModelo();
 
         $correo = $this->request->getPost('correo');
-        $id_usuario = $login_modelo->sacar_id_usuario($correo);
+        $idUsuario = $loginModelo->sacarIdUsuario($correo);
 
-        if($id_usuario == null){
+        if($idUsuario == null){
             $mensaje = [
                 'mensaje' => 'El correo introducido no esta registrado en disertus',
             ];
-            return View('sp_enviar_correo', $mensaje);
+            return View('spEnviarCorreo', $mensaje);
         }else{
         $dato = [
-            'IdUsuario' => $id_usuario,
+            'IdUsuario' => $idUsuario,
         ];
 
-        $recuperar_password_modelo->insertar_id($dato);
+        $recuperarPasswordModelo->insertarId($dato);
 
-        return view('sp_enviar_codigo', $id_usuario);
+        return view('spEnviarCodigo', $idUsuario);
         }
     }
     
-    public function enviar_codigo(){
-        $IdUsuario = $this->request->getPost('id_usuario');
-        if($this->request->getVar('boton_codigo')){
-            $login_modelo = new Login_modelo();
-            $correo = $login_modelo->sacar_correo($IdUsuario);
+    public function enviarCodigo(){
+        $IdUsuario = $this->request->getPost('idUsuario');
+        if($this->request->getVar('botonCodigo')){
+            $loginModelo = new LoginModelo();
+            $correo = $loginModelo->sacarCorreo($IdUsuario);
             
             $caracteres='1234567890';
             $longpalabra=6;
@@ -46,8 +46,8 @@ class Recuperar_password extends BaseController{
                 $codigo.= $caracteres[$x];
             }
             
-            $recuperar_password_modelo = new Recuperar_password_modelo();
-            $recuperar_password_modelo->insertar_codigo($codigo, $IdUsuario);
+            $recuperarPasswordModelo = new RecuperarPasswordModelo();
+            $recuperarPasswordModelo->insertarCodigo($codigo, $IdUsuario);
 
             //Enviamos el correo con el codigo
             $email = \Config\Services::email();
@@ -64,7 +64,7 @@ class Recuperar_password extends BaseController{
             ];
 
             if($email->send()) {
-                return view('sp_enviar_codigo', $IdUsuario);
+                return view('spEnviarCodigo', $IdUsuario);
                 } 
                 else {
                     $data = $email->printDebugger(['headers']);
@@ -72,11 +72,11 @@ class Recuperar_password extends BaseController{
                 }
                 // El correo electrónico se envió exitosamente            
         }   
-        if($this->request->getVar('boton_verificar')){
-            $codigo = $this->request->getPost('codigo_usuario');
-            $recuperar_password_modelo = new Recuperar_password_modelo();
+        if($this->request->getVar('botonVerificar')){
+            $codigo = $this->request->getPost('codigoUsuario');
+            $recuperarPasswordModelo = new RecuperarPasswordModelo();
 
-            $res = $recuperar_password_modelo->comparar_codigo($IdUsuario, $codigo);
+            $res = $recuperarPasswordModelo->compararCodigo($IdUsuario, $codigo);
             if($res == null){
                 $mensaje = "El codigo es incorrecto o ya a expirado, si es necesario reenviaremos el codigo";
                 $mensaje = [
@@ -84,17 +84,17 @@ class Recuperar_password extends BaseController{
                     'IdUsuario' => $IdUsuario,
                 ];
 
-                return view('sp_enviar_codigo', $mensaje);
+                return view('spEnviarCodigo', $mensaje);
             }else{
                 $IdUsuario = [
                     'IdUsuario' => $IdUsuario,
                 ];
-                return view('sp_cambiar_password', $IdUsuario);
+                return view('spCambiarPassword', $IdUsuario);
             }
         } 
     }
 
-    public function cambiar_password(){
+    public function cambiarPassword(){
         $IdUsuario = $this->request->getPost('IdUsuario');
         $validar = \Config\Services::validation();
         $validation = $this->validate([
@@ -112,15 +112,15 @@ class Recuperar_password extends BaseController{
                 'IdUsuario' => $IdUsuario,
         ];
         
-        return view('sp_cambiar_password', $data);
+        return view('spCambiarPassword', $data);
         }else{
             $password = $this->request->getPost('password');
             $hash = Hash::make($password);
 
-            $login_modelo = new Login_modelo();
-            $login_modelo->cambiar_password($hash, $IdUsuario);
+            $loginModelo = new LoginModelo();
+            $loginModelo->cambiarPassword($hash, $IdUsuario);
 
-            return view('sp_login');
+            return view('spLogin');
         }
     }
 }

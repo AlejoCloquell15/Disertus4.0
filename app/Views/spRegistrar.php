@@ -10,7 +10,7 @@
     <?php $validation = \Config\Services::validation(); ?>
     <h2>Registrar Usuario</h2>
     <br>
-    <form action="<?php echo base_url();?>ingresar_datos" method="post">
+    <form action="<?php echo base_url();?>ingresarDatos" method="post">
         Ingrese mail
         <br>
         <input type="text" name="mail"><br>
@@ -33,7 +33,7 @@
         <br><br>
         Ingrese el codigo obtenido del servidor web
         <br>
-        <input type="text" name="codigo_nodemcu">
+        <input type="text" name="codigoNodemcu">
         <br><br>
         <input type="submit" value="ingresar">
         <?php

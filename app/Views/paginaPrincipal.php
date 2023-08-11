@@ -192,7 +192,7 @@
             <li class="menu-item hidden"><a href="<?php echo base_url (); ?>cargar_login">Login</a></li>
             <li class="menu-item hidden"><a href="<?php echo base_url (); ?>menu">Menu</a></li>
             <li class="menu-item hidden"><a href="<?php echo base_url (); ?>nosotros">Nosortos</a></li>
-            <li class="menu-item hidden"><a href="<?php echo base_url (); ?>Como_funciona">¿Como funciona?</a>
+            <li class="menu-item hidden"><a href="<?php echo base_url (); ?>ComoFunciona">¿Como funciona?</a>
                    
             </li>
         </ul>

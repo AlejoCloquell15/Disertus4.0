@@ -7,7 +7,7 @@
 </head>
 <body>
     <p>Introduce una nueva contraseña</p>
-    <form action="<?php echo base_url();?>cambiar_password" method="post">
+    <form action="<?php echo base_url();?>cambiarPassword" method="post">
         <input type="password" name="password"><input type="text" value=" <?php echo $IdUsuario; ?>" name="IdUsuario" readonly>
         <br><br>
         <input type="submit" value="Cambiar">

@@ -7,7 +7,7 @@ class Dato_modelo extends Model {
     protected $primaryKey = 'IdDatos';
     protected $allowedFields = ['Dato'];
 
-    public function registrar_dato($dato){
+    public function registrarDato($dato){
         $registrar = $this->db->table('datos');
         $registrar->insert(['Dato' => $dato]);
         if($dato == null){

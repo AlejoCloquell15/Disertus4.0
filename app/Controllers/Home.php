@@ -6,14 +6,14 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('pagina_principal');
+        return view('paginaPrincipal');
     }
 
     public function nosotros(){
         return view('nosotros');
     }
-    public function Como_funciona(){
-        return view('Como_funciona');
+    public functionF(){
+        return view('ComoFunciona');
     }
 
     public function menu(){
