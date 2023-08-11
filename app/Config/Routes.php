@@ -43,6 +43,7 @@ $routes->get('/cerrar_session', 'login::cerrar_session');
 $routes->get('/cargar_pp', 'pagina_principal::cargar_pp');
 $routes->get('/eliminar_token', 'pagina_principal::eliminar_token');
 $routes->get('/recibir_nodemcu', 'recibir_nodemcu::recibir_datos'); $routes->post('/recibir_nodemcu', 'recibir_nodemcu::recibir_datos');
+$routes->get('/recibir_nodemcu_prueba', 'recibir_nodemcu::recibir_datos_prueba'); $routes->post('/recibir_nodemcu_prueba', 'recibir_nodemcu::recibir_datos_prueba');
 $routes->get('/enviar_correo', 'login::correo');
 $routes->post('/datos_dispositivo', 'datos_dispositivo::datos_dispositivo');
 $routes->post('/cargarNodemcu', 'datos_dispositivo::cargarNodemcu');

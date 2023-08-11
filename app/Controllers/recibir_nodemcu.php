@@ -20,5 +20,13 @@ class Recibir_nodemcu extends BaseController{
 
         return $this->response->setJSON($response);
     }
+
+    public function recibir_datos_prueba(){
+        $dato1 = $this->request->getPost('dato1');
+        $dato2 = $this->request->getPost('dato2');
+
+
+        return $this->response->setJSON($dato1);
+    }
 }
 ?>
