@@ -22,8 +22,6 @@ class NodemcuModelo extends Model {
     }
 
     public function agregarDatos($datos){
-        //var_dump($datos);
-        //var_dump($datos);
         $consulta = $this->db->query("UPDATE nodemcu SET TiempoDucha = ?, TiempoEspera = ?, TiempoTolerancia = ? WHERE IdNodemcu = ?", [$datos['TiempoDucha'], $datos['TiempoEspera'], $datos['TiempoTolerancia'], $datos['IdNodemcu']]);
         $mensaje = true;
     }
