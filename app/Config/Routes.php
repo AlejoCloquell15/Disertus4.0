@@ -43,12 +43,16 @@ $routes->get('/cerrarSession', 'login::cerrarSession');
 $routes->get('/cargarPp', 'paginaPrincipal::cargarPp');
 $routes->get('/eliminarToken', 'paginaPrincipal::eliminarToken');
 $routes->get('/recibirNodemcu', 'recibirNodemcu::recibirDatos'); $routes->post('/recibirNodemcu', 'recibirNodemcu::recibirDatos');
-$routes->get('/recibirNodemcu_prueba', 'recibirNodemcu::recibirDatos_prueba'); $routes->post('/recibirNodemcu_prueba', 'recibirNodemcu::recibirDatos_prueba');
+$routes->get('/recibirCaudal', 'recibirNodemcu::recibirCaudal'); $routes->post('/recibirCaudal', 'recibirNodemcu::recibirCaudal');
+$routes->get('/recibir_caudalimetro/(:any)', 'recibirNodemcu::recibirCaudalimetro'); $routes->post('/recibir_caudalimetro', 'recibirNodemcu::recibirCaudalimetro');
+$routes->get('/recibirNodemcuPrueba', 'recibirNodemcu::recibirDatosPrueba'); $routes->post('/recibirNodemcuPrueba', 'recibirNodemcu::recibirDatosPrueba');
 $routes->get('/enviarCorreo', 'recuperarPassword::correo'); $routes->post('/enviarCorreo', 'recuperarPassword::correo');
 $routes->post('/datosDispositivo', 'datosDispositivo::datosDispositivo');
-$routes->post('/cargarNodemcu', 'datosDispositivo::cargarNodemcu');
+$routes->post('/cargarNodemcu', 'datosDispositivo::cargarNodemcu'); $routes->get('/cargarNodemcu', 'datosDispositivo::cargarNodemcu');
 $routes->post('/cargarSpConf', 'datosDispositivo::cargarSpConf');
 $routes->get('/cargarRecuperacion', 'recuperarPassword::cargarRecuperacion');
+$routes->post('/enviarCodigo', 'recuperarPassword::enviarCodigo');
+$routes->post('/cambiarPassword', 'recuperarPassword::cambiarPassword'); 
 
 /*
  * --------------------------------------------------------------------

@@ -2,9 +2,11 @@
 
 namespace App\Controllers;
 use App\Models\nodemcuModelo;
+use App\Models\caudalModelo;
+use App\Models\datoModelo;
 
 class RecibirNodemcu extends BaseController{
-    public function recibir_datos(){
+    public function recibirDatos(){
         $idNodemcu = $this->request->getPost('dato1');
 
         $nodemcuModelo = new nodemcuModelo();
@@ -28,5 +30,46 @@ class RecibirNodemcu extends BaseController{
 
         return $this->response->setJSON($dato1);
     }
-}
+
+    public function recibirCaudal(){
+        $caudal = $this->request->getPost('dato1');
+        $MAC = $this->request->getPost('dato2');
+
+        $datos = [
+            'Caudal' -> $caudal,
+            'IdNodemcu' -> $MAC,
+        ];
+
+        $caudalModelo = new caudalModelo();
+        $caudalModelo->insertarCaudal($datos);
+    }
+
+    public function recibirCaudalimetro($caudal){
+        $caudal = $this->request->getPost('dato1');
+        
+
+        $datos = [
+            'Caudal' -> $caudal,
+        ];
+
+        $caudalModelo = new caudalModelo();
+        $caudalModelo->insertarCaudal($datos);
+
+        return $this->response->setJSON($caudal);
+    }
+
+    public function recibirDatosPrueba(){
+
+        $dato = $this->request->getPost('dato1');
+    
+        $hola = "hola";
+        $modelo = new datoModelo;
+    
+        $mensaje = [
+            "Dato" => $modelo->registrarDato($hola),
+        ];
+        
+    }
+    }
+
 ?>

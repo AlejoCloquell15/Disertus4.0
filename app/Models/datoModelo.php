@@ -2,7 +2,7 @@
  
 use CodeIgniter\Model;
  
-class Dato_modelo extends Model {
+class DatoModelo extends Model {
     protected $table = 'datos';
     protected $primaryKey = 'IdDatos';
     protected $allowedFields = ['Dato'];

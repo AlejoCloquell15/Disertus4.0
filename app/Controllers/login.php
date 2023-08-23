@@ -96,7 +96,7 @@ class Login extends BaseController{
 
                     $insertar = $sessionModelo->agregarToken($datos);
 
-                    return view('spPaginaPrincipal');
+                    return view('spPaginaPrincipal', $contra);
                     //$token = session('token');
                     //echo $idUsuario;
                 }

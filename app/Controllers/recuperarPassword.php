@@ -5,7 +5,7 @@ use App\Models\recuperarPasswordModelo;
 use App\Libraries\Hash;
 
 
-class Recuperar_password extends BaseController{
+class RecuperarPassword extends BaseController{
     public function cargarRecuperacion(){
         return view('spEnviarCorreo');
     }
@@ -28,7 +28,7 @@ class Recuperar_password extends BaseController{
         ];
 
         $recuperarPasswordModelo->insertarId($dato);
-
+        
         return view('spEnviarCodigo', $idUsuario);
         }
     }

@@ -189,7 +189,7 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>
-            <li class="menu-item hidden"><a href="<?php echo base_url (); ?>cargar_login">Login</a></li>
+            <li class="menu-item hidden"><a href="<?php echo base_url (); ?>cargarLogin">Login</a></li>
             <li class="menu-item hidden"><a href="<?php echo base_url (); ?>menu">Menu</a></li>
             <li class="menu-item hidden"><a href="<?php echo base_url (); ?>nosotros">Nosortos</a></li>
             <li class="menu-item hidden"><a href="<?php echo base_url (); ?>ComoFunciona">¿Como funciona?</a>

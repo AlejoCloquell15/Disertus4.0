@@ -12,7 +12,7 @@ class Home extends BaseController
     public function nosotros(){
         return view('nosotros');
     }
-    public functionF(){
+    public function comoFunciona(){
         return view('ComoFunciona');
     }
 
