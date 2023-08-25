@@ -32,7 +32,7 @@ class NodemcuModelo extends Model {
         return $resultado;
     }
 
-    public function selectDatos($idNodemcu){
+    public function selectDatos(){
         $sql= $this->db->query("SELECT TiempoDucha, TiempoEspera, TiempoTolerancia FROM nodemcu");
         $resultado = $sql->getRowArray();
         return $resultado;
