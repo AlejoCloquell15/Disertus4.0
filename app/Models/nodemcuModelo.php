@@ -5,7 +5,7 @@ use CodeIgniter\Model;
 class NodemcuModelo extends Model {
     protected $table = 'nodemcu';
     protected $primaryKey = 'IdNodemcu';
-    protected $allowedFields = ['CodigoNodemcu','IdUsuario'];
+    protected $allowedFields = ['IdUsuario'];
 
     public function compararMac($mac){
     $sql= $this->db->query("SELECT IdNodemcu FROM nodemcu WHERE IdNodemcu = '{$mac['IdNodemcu']}' AND CodigoNodemcu = '{$mac['CodigoNodemcu']}'");
@@ -32,7 +32,7 @@ class NodemcuModelo extends Model {
         return $resultado;
     }
 
-    public function selectDatos(){
+    public function selectDatos($idNodemcu){
         $sql= $this->db->query("SELECT TiempoDucha, TiempoEspera, TiempoTolerancia FROM nodemcu");
         $resultado = $sql->getRowArray();
         return $resultado;

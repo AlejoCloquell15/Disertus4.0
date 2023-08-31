@@ -22,7 +22,7 @@ class DatosDispositivo extends BaseController{
                     $idUser = session('idUser');
                     $nodemcuModelo = new nodemcuModelo();
                     $placas['resultado'] = $nodemcuModelo->selectPlacas($idUser);
-                    
+                    $placas['vista'] = view('spHeader');
                     return view('spElegirNodemcu', $placas);
                 }     
         }else{

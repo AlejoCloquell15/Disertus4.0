@@ -42,7 +42,7 @@ $routes->post('/cerrarSession', 'login::cerrarSession');
 $routes->get('/cerrarSession', 'login::cerrarSession');
 $routes->get('/cargarPp', 'paginaPrincipal::cargarPp');
 $routes->get('/eliminarToken', 'paginaPrincipal::eliminarToken');
-$routes->get('/recibirNodemcu', 'recibirNodemcu::recibirDatos'); $routes->post('/recibirNodemcu', 'recibirNodemcu::recibirDatos');
+$routes->get('/recibirNodemcu/(:any)', 'recibirNodemcu::recibirDatos'); $routes->post('/recibirNodemcu', 'recibirNodemcu::recibirDatos');
 $routes->get('/recibirCaudal', 'recibirNodemcu::recibirCaudal'); $routes->post('/recibirCaudal', 'recibirNodemcu::recibirCaudal');
 $routes->get('/recibir_caudalimetro/(:any)', 'recibirNodemcu::recibirCaudalimetro'); $routes->post('/recibir_caudalimetro', 'recibirNodemcu::recibirCaudalimetro');
 //$routes->get('/recibirNodemcuPrueba', 'recibirNodemcu::recibirDatosPrueba'); $routes->post('/recibirNodemcuPrueba', 'recibirNodemcu::recibirDatosPrueba');

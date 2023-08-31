@@ -140,11 +140,11 @@
     }
 
     </style>
-    <title>Bienvenido</title>
+    <title>Bienvenido </title>
 </head>
 <body>
-    <header>
-        <div class="header-icons"> 
+    <header style='position:sticky;top:0;'>
+        <div class="header-icons" > 
             <a class="disertus">DISERTUS</a>
         </div>
         <a class="i-cerrar-session" href="<?php echo base_url();?>cerrarSession"><i class="bi bi-box-arrow-right"></i></a>

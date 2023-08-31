@@ -7,7 +7,7 @@ use App\Models\datoModelo;
 
 class RecibirNodemcu extends BaseController{
     public function recibirDatos(){
-        $idNodemcu = $this->request->getPost('dato1');
+        $idNodemcu = $this->request->getVar('dato1');
 
         $nodemcuModelo = new nodemcuModelo();
         $resultado = $nodemcuModelo->selectDatos($idNodemcu);
@@ -21,58 +21,42 @@ class RecibirNodemcu extends BaseController{
         // Devolver una respuesta al Arduino como JSON
 
         return $this->response->setJSON($response);
-        //return $this->response->setJSON(['message' => '¡Solicitud recibida correctamente!']);
-    }
-
-    public function recibirDatosPrueba(){
-        $dato1 = $this->request->getPost('dato1');
-        $dato2 = $this->request->getPost('dato2');
-
-
-        return $this->response->setJSON($dato1);
+        return $this->response->setJSON(['message' => '¡Solicitud recibida correctamente!']);
     }
 
     public function recibirCaudal(){
         $caudal = $this->request->getPost('dato1');
-        $MAC = $this->request->getPost('dato2');
+        $MAC = $this->request->getVar('dato2');
 
         $datos = [
-            'Caudal' -> $caudal,
-            'IdNodemcu' -> $MAC,
+            'Caudal' => $caudal,
+            'IdNodemcu' => $MAC,
         ];
 
+        echo var_dump($datos);
         $caudalModelo = new caudalModelo();
         $caudalModelo->insertarCaudal($datos);
     }
 
     public function recibirCaudalimetro(){
-        $caudal = $this->request->getVar('dato1');
-        
-        
+       $caudal = $this->request->getVar('dato1');
+        $mac = $this->request->getVar('dato2');
+
+        //$mac = "asbbdcs";
+        //$caudal = "csdc";
 
         $datos = [
             'Caudal' => $caudal,
+            'IdNodemcu' => $mac,
         ];
-
+        
         $caudalModelo = new caudalModelo();
         $caudalModelo->insertarCaudal($datos);
 
         return $this->response->setJSON($caudal);
-        echo var_dump($caudal);
+        //echo $caudal;
+        //echo $mac;
     }
-
-    /*public function recibirDatosPrueba(){
-
-        $dato = $this->request->getPost('dato1');
-    
-        $hola = "hola";
-        $modelo = new datoModelo;
-    
-        $mensaje = [
-            "Dato" => $modelo->registrarDato($hola),
-        ];
-        
-    }*/
     }
 
 ?>

@@ -1,0 +1,1736 @@
+INFO - 2023-08-28 14:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 14:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-28 14:51:14 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:51:14 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:52:08 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:52:08 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:52:40 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:52:40 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:54:19 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:54:19 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:54:35 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:54:35 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:55:08 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:55:08 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:56:29 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:56:29 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:57:17 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:57:17 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:57:20 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:57:20 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:57:38 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:57:38 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:58:33 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:58:33 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:59:11 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:59:11 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 14:59:42 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 14:59:42 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:00:04 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:00:04 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:00:30 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:00:30 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(58): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:00:39 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:00:39 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:00:40 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:00:40 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:00:40 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:00:40 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:00:40 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:00:40 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:01:07 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:01:07 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:01:08 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:01:08 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:01:09 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:01:09 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:01:09 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:01:09 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:01:09 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:01:09 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(60): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:02:55 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(62): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:02:55 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(62): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:02:55 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(62): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:02:55 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(62): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:03:33 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:03:33 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:03:34 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:03:34 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:03:34 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:03:34 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:03:46 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:03:46 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:04:29 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:04:29 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'285dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'285dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'285dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:04:43 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:04:43 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:04:44 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:04:44 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:04:45 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:04:45 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:08:42 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:08:42 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:09:28 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:09:29 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'39dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'39dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'39dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:09:43 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:09:43 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:10:37 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:10:37 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:10:37 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:10:37 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:10:38 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:10:38 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:10:38 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:10:38 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:10:39 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:10:39 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:11:28 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:11:28 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:11:28 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:11:28 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:11:29 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:11:29 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:11:42 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:11:42 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:14:10 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:14:10 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:14:57 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:14:57 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:16:39 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:16:39 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(59): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:51:04 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:51:04 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:51:08 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:51:08 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:51:09 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:51:09 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:51:09 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:51:09 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:51:10 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:51:10 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:51:10 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:51:10 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:52:55 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:52:55 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:52:55 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:52:55 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 15:52:56 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 15:52:56 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(46): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:01:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:03:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:03:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:04:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:08:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:08:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 16:08:53 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 16:08:53 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:09:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 16:11:49 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 16:11:49 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:12:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 16:13:50 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 16:13:50 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:17:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 16:19:38 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(54): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 16:19:38 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(54): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 16:20:01 --> mysqli_sql_exception: Column 'Caudal' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 16:20:01 --> Column 'Caudal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(38): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 16:20:54 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(54): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 16:20:54 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'0dato2=DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(54): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 16:37:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 16.
+ 1 APPPATH\Controllers\recibirNodemcu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-28 16:45:47 --> mysqli_sql_exception: Column 'IdNodemcu' cannot be null in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\Disertus\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\Disertus\app\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Disertus\app\Controllers\recibirNodemcu.php(54): App\Models\CaudalModelo->insertarCaudal(Array)
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+#8 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-28 16:45:47 --> Column 'IdNodemcu' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'DE32A7B02A8C\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'DE32A7B02A8C\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (\'DE32A7B02A8C\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `caudal` (`Caudal`, `IdNodemcu`) VALUES (:Caudal:, :IdNodemcu:)', [...], false)
+ 5 APPPATH\Models\caudalModelo.php(12): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\recibirNodemcu.php(54): App\Models\CaudalModelo->insertarCaudal([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirCaudalimetro()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 17:06:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 18.
+ 1 APPPATH\Controllers\recibirNodemcu.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 17:12:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 18.
+ 1 APPPATH\Controllers\recibirNodemcu.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-28 17:16:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\recibirNodemcu.php on line 18.
+ 1 APPPATH\Controllers\recibirNodemcu.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Controllers\\recibirNodemcu.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RecibirNodemcu->recibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecibirNodemcu))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-28 17:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-28 17:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

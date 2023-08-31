@@ -19,7 +19,6 @@
     }
 
     header {
-        background: rgb(0,75,73);
         background: linear-gradient(86deg, rgba(0,75,73,1) 11%, rgba(9,118,121,1) 58%, rgba(0,177,149,1) 100%);
         color: #ffffff;
         display: flex;
@@ -96,14 +95,6 @@
         
     }
 
-    h1 {
-        margin-top: 0; /* Eliminar el margen superior para acercar el título al contenido */
-        font-size: 28px; /* Aumentar el tamaño de fuente */
-        color: #193b4a;
-        text-align: center; /* Centrar el título horizontalmente */
-        margin-bottom: 20px; /* Agregar un margen inferior para separar del contenido siguiente */
-    }
-
     /* Cambios en el tamaño de los íconos del header */
     .header-icons i {
         font-size: 27px;
@@ -138,6 +129,7 @@
     .i-cerrar-session{
         transition: 0.4s ease-in-out;
     }
+
 
     </style>
 </head>
