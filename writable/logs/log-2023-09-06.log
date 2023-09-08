@@ -1,0 +1,202 @@
+INFO - 2023-09-06 11:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 12:58:07 --> Attempt to read property "TiempoDucha" on string
+in APPPATH\Views\spConfiguracion.php on line 31.
+ 1 APPPATH\Views\spConfiguracion.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "TiempoDucha" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 12:58:34 --> Attempt to read property "TiempoDucha" on string
+in APPPATH\Views\spConfiguracion.php on line 31.
+ 1 APPPATH\Views\spConfiguracion.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "TiempoDucha" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 12:59:20 --> Attempt to read property "TiempoDucha" on string
+in APPPATH\Views\spConfiguracion.php on line 31.
+ 1 APPPATH\Views\spConfiguracion.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "TiempoDucha" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 12:59:23 --> Attempt to read property "TiempoDucha" on string
+in APPPATH\Views\spConfiguracion.php on line 31.
+ 1 APPPATH\Views\spConfiguracion.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "TiempoDucha" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 12:59:54 --> Attempt to read property "TiempoEspera" on string
+in APPPATH\Views\spConfiguracion.php on line 32.
+ 1 APPPATH\Views\spConfiguracion.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "TiempoEspera" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 13:00:33 --> Attempt to read property "TiempoDucha" on string
+in APPPATH\Views\spConfiguracion.php on line 31.
+ 1 APPPATH\Views\spConfiguracion.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "TiempoDucha" on string', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 13:09:49 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\spConfiguracion.php on line 32.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 3 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 13:17:43 --> syntax error, unexpected token ";"
+in APPPATH\Views\spConfiguracion.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 3 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 13:17:58 --> syntax error, unexpected token ".", expecting end of file
+in APPPATH\Views\spConfiguracion.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 3 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 13:18:27 --> syntax error, unexpected token ";"
+in APPPATH\Views\spConfiguracion.php on line 35.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 3 APPPATH\Controllers\datosDispositivo.php(77): view('spConfiguracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->cargarSpConf()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:07:16 --> Undefined variable $vista
+in APPPATH\Views\spConfiguracion.php on line 69.
+ 1 APPPATH\Views\spConfiguracion.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vista', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(65): view('spConfiguracion')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->datosDispositivo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:08:47 --> Undefined variable $resultado
+in APPPATH\Views\spConfiguracion.php on line 74.
+ 1 APPPATH\Views\spConfiguracion.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(67): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->datosDispositivo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:14:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\spConfiguracion.php on line 74.
+ 1 APPPATH\Views\spConfiguracion.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 74)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(67): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->datosDispositivo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:15:05 --> Undefined variable $idNodemcu
+in APPPATH\Views\spConfiguracion.php on line 101.
+ 1 APPPATH\Views\spConfiguracion.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idNodemcu', 'C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Disertus\\app\\Views\\spConfiguracion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('spConfiguracion', [], true)
+ 5 APPPATH\Controllers\datosDispositivo.php(67): view('spConfiguracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DatosDispositivo->datosDispositivo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatosDispositivo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

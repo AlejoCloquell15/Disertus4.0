@@ -1,0 +1,60 @@
+INFO - 2023-09-01 12:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-01 12:10:30 --> mysqli_sql_exception: Unknown column 'CodigoNodemcu' in 'where clause' in C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Disertus\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT IdNodemc...', 0)
+#1 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT IdNodemc...')
+#2 C:\xampp\htdocs\Disertus\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT IdNodemc...')
+#3 C:\xampp\htdocs\Disertus\app\Models\nodemcuModelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT IdNodemc...')
+#4 C:\xampp\htdocs\Disertus\app\Controllers\registrar.php(111): App\Models\NodemcuModelo->compararMac(Array)
+#5 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(934): App\Controllers\Registrar->ingresarDatos()
+#6 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+#7 C:\xampp\htdocs\Disertus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Disertus\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-01 12:10:30 --> Unknown column 'CodigoNodemcu' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT IdNodemcu FROM nodemcu WHERE IdNodemcu = \'12313425\' AND CodigoNodemcu = \'32423423424\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT IdNodemcu FROM nodemcu WHERE IdNodemcu = \'12313425\' AND CodigoNodemcu = \'32423423424\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT IdNodemcu FROM nodemcu WHERE IdNodemcu = \'12313425\' AND CodigoNodemcu = \'32423423424\'')
+ 4 APPPATH\Models\nodemcuModelo.php(11): CodeIgniter\Database\BaseConnection->query('SELECT IdNodemcu FROM nodemcu WHERE IdNodemcu = \'12313425\' AND CodigoNodemcu = \'32423423424\'')
+ 5 APPPATH\Controllers\registrar.php(111): App\Models\NodemcuModelo->compararMac([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Registrar->ingresarDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 12:10:36 --> Invalid file: "menu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('menu')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 12:10:39 --> Invalid file: "nosotros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nosotros.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nosotros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('nosotros')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->nosotros()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 13:02:27 --> Invalid file: "nosotros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nosotros.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('nosotros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('nosotros')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->nosotros()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 13:12:51 --> Invalid file: "menu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('menu')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
