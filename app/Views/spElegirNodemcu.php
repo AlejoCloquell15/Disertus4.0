@@ -54,6 +54,26 @@
             border: 1px solid #ccc;
             border-radius: 17px;
             transition: all 0.5s;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .submit>svg {
+            width: 48px;
+            aspect-ratio: 1/1;
+            fill: #1b6b6b;
+            transition: fill 0.3s ease
+        }
+
+        .submit:hover>svg {
+            fill: rgb(0, 75, 73);
         }
 
         .submit:hover {
@@ -102,7 +122,7 @@
     <?php echo $vista ?>
     <div class="form-titulo">
         <h1>Selecciona Un Dispositivo para trabajar</h1>
-        <form action="<?php echo base_url(); ?>/agregarNodemcu" method="post" class="form-nodemcu">
+        <form action="<?php echo base_url(); ?>/cargarAgregarNodemcu" method="post" class="form-nodemcu">
             <input type="hidden" value="<?php echo $idUser ?>">
             <button class="boton-agregar">Agregar</button>
         </form>
@@ -113,8 +133,9 @@
             foreach ($resultado as $res) {
                 echo "<form class='form' action='" . base_url() . "cargarSpConf' method='post'>
                 <input type='hidden' value='" . $res->IdNodemcu . "' name='idUser'>
-                <button class='submit'><i class='fas fa-paper-plane'></i>" . $res->Nombre . "</button>
-            </form>";
+                <button class='submit'><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M4 13h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1zm-1 7a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v4zm10 0a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v7zm1-10h6a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1z'></path></svg>" . $res->Nombre . "</button>
+            </form>"
+                ;
             }
         }
         ?>

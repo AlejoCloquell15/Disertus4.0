@@ -34,6 +34,7 @@
         padding: 8px;
     }
 
+
     .div-principal input:focus {
         outline: none;
         border-color: green;
@@ -73,6 +74,38 @@
         border-bottom: 1px solid green;
         display: inline-block;
     }
+
+    .btn-agregar {
+        transition: all 0.5s;
+    }
+
+    .btn-agregar:hover {
+        background-color: #19AB91;
+        cursor: pointer;
+    }
+
+    .btn-agregar:focus {
+        outline: none;
+        border-color: green;
+        background-color: white;
+    }
+
+    .btn-eliminar {
+        transition: all 0.4s;
+        margin-left: 130px;
+    }
+
+    .btn-eliminar:hover {
+        transform: scale(1.04);
+        background-color: #FF2064;
+        cursor: pointer
+    }
+
+    .btn-eliminar:focus {
+        outline: none;
+        border-color: red;
+        background-color: white;
+    }
 </style>
 
 <body>
@@ -108,11 +141,17 @@
                 </p>
                 <input type="number" name="tiempoTolerancia">
                 <br><br>
-                <input type="submit"><input type="hidden" name="idNodemcu" value="<?php echo $idNodemcu ?>">
+                <input type="submit" name="agregarDatos" class="btn-agregar">
+                <input type="submit" class="btn-eliminar" value="Eliminar">
+                <?php if (isset($mensaje)) {
+                    echo $mensaje;
+                } ?>
+                <input type="hidden" name="idNodemcu" value="<?php echo $idNodemcu ?>">
                 <br><br>
             </div>
         </form>
     </div>
+
     <script type="text/javascript">
         setTimeout(function () {
             $.ajax({

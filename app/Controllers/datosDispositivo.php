@@ -4,83 +4,127 @@ namespace App\Controllers;
 
 use App\Models\nodemcuModelo;
 use App\Models\sessionModelo;
+use App\Controllers\Utils;
+use App\Models\caudalModelo;
+
+
 
 class DatosDispositivo extends BaseController
 {
     public function cargarNodemcu()
     {
-        $token = session('token');
-        if ($token) {
-            $conexion = new sessionModelo;
-            $fechaExpiracion = $conexion->fechaExpiracion($token);
+        $utils = new Utils();
+        $utils->token();
 
-            $fechaActual = date('Y-m-d H:i:s');
+        $idUser = session('idUser');
+        $nodemcuModelo = new nodemcuModelo();
 
-            if (strtotime($fechaExpiracion['Expiracion']) == strtotime($fechaActual)) {
-                return redirect()->route('cerrarSession');
-            } elseif (strtotime($fechaExpiracion['Expiracion']) < strtotime($fechaActual)) {
-                return redirect()->route('cerrarSession');
-            } else {
-                $idUser = session('idUser');
-                $nodemcuModelo = new nodemcuModelo();
+        $placas['resultado'] = $nodemcuModelo->selectPlacas($idUser);
+        $placas['vista'] = view('spHeader');
+        $placas['idUser'] = $idUser;
+        return view('spElegirNodemcu', $placas);
 
-                $placas['resultado'] = $nodemcuModelo->selectPlacas($idUser);
-                $placas['vista'] = view('spHeader');
-                $placas['idUser'] = $idUser;
-                return view('spElegirNodemcu', $placas);
-            }
-        } else {
-            return view('spLogin');
-        }
     }
 
     public function datosDispositivo()
     {
-        $token = session('token');
-        if ($token) {
-            $conexion = new sessionModelo;
-            $fechaExpiracion = $conexion->fechaExpiracion($token);
+        $nodemcuModelo = new nodemcuModelo();
 
-            $fechaActual = date('Y-m-d H:i:s');
+        $utils = new Utils();
+        $utils->token();
 
-            if (strtotime($fechaExpiracion['Expiracion']) == strtotime($fechaActual)) {
-                return redirect()->route('cerrarSession');
-            } elseif (strtotime($fechaExpiracion['Expiracion']) < strtotime($fechaActual)) {
-                return redirect()->route('cerrarSession');
-            } else {
-                $tiempoEspera = $this->request->getPost('tiempoEspera');
-                $tiempoDucha = $this->request->getPost('tiempoDucha');
-                $tiempoTolerancia = $this->request->getPost('tiempoTolerancia');
-                $idNodemcu = $this->request->getPost('idNodemcu');
+        $tiempoEspera = $this->request->getPost('tiempoEspera');
+        $tiempoDucha = $this->request->getPost('tiempoDucha');
+        $tiempoTolerancia = $this->request->getPost('tiempoTolerancia');
+        $idNodemcu = $this->request->getPost('idNodemcu');
 
-                $datos = [
-                    'TiempoEspera' => $tiempoEspera,
-                    'TiempoDucha' => $tiempoDucha,
-                    'TiempoTolerancia' => $tiempoTolerancia,
-                    'IdNodemcu' => $idNodemcu,
-                ];
+        if ($tiempoEspera == 0 || $tiempoDucha == 0 || $tiempoTolerancia == 0) {
 
-                //var_dump($datos);
-                $nodemcuModelo = new nodemcuModelo();
-                $vista['resultado'] = $nodemcuModelo->agregarDatos($datos);
-                $vista['idNodemcu'] = $idNodemcu;
-                $vista['vista'] = view('spHeader');
+            $mensaje['mensaje'] = "Los valores tienen que ser superiores a 0";
 
-                return view('spConfiguracion', $vista);
-            }
-        } else {
-            return view('spLogin');
+            return view('spConfiguracion', $mensaje);
         }
+
+        if ($this->request->getVar('agregarDatos')) {
+            $datos = [
+                'TiempoEspera' => $tiempoEspera,
+                'TiempoDucha' => $tiempoDucha,
+                'TiempoTolerancia' => $tiempoTolerancia,
+                'IdNodemcu' => $idNodemcu,
+            ];
+
+            //var_dump($datos);
+            $vista['resultado'] = $nodemcuModelo->agregarDatos($datos);
+            $vista['idNodemcu'] = $idNodemcu;
+            $vista['vista'] = view('spHeader');
+
+            return redirect()->to(site_url('cargarSpConf'));
+        } else {
+            $idUsuario = session('idUser');
+
+            $datos = [
+                'IdUsuario' => $idUsuario,
+                'IdNodemcu' => $idNodemcu,
+            ];
+
+            $nodemcuModelo->eliminarDispositivo($datos);
+
+            return redirect()->to(site_url('cargarNodemcu'));
+        }
+
     }
 
     public function cargarSpConf()
     {
-        $idNodemcu['idNodemcu'] = $this->request->getPost('idUser');
+        $utils = new Utils();
+        $utils->token();
+
+        $modeloCaudal = new caudalModelo();
+
+        $idUser = session('idUser');
+        $variable['consulta'] = $modeloCaudal->conf($idUser);
+
+        $variable['idNodemcu'] = $this->request->getPost('idUser');
 
         $nodemcuModelo = new nodemcuModelo();
-        $idNodemcu['resultado'] = $nodemcuModelo->selectDatos($idNodemcu['idNodemcu']);
+        $variable['resultado'] = $nodemcuModelo->selectDatos($variable['idNodemcu']);
 
-        $idNodemcu['vista'] = view('spHeader');
-        return view('spConfiguracion', $idNodemcu);
+        $variable['vista'] = view('spHeader');
+        return view('spConfiguracion', $variable);
+    }
+
+    public function cargarAgregarNodemcu()
+    {
+        $utils = new Utils();
+        $utils->token();
+        return view('spAgregarNodemcu');
+    }
+
+    public function agregarNodemcu()
+    {
+        $utils = new Utils();
+        $utils->token();
+
+        $idNodemcu = $this->request->getPost('idNodemcu');
+        $tiempoDucha = $this->request->getPost('tiempoDucha');
+        $tiempoEspera = $this->request->getPost('tiempoEspera');
+        $tiempoTolerancia = $this->request->getPost('tiempoTolerancia');
+        $nombre = $this->request->getPost('nombre');
+
+        $idUsuario = session('idUser');
+
+        $datos = [
+            'IdUsuario' => $idUsuario,
+            'IdNodemcu' => $idNodemcu,
+            'TiempoDucha' => $tiempoDucha,
+            'TiempoEspera' => $tiempoEspera,
+            'TiempoTolerancia' => $tiempoTolerancia,
+            'Nombre' => $nombre,
+        ];
+
+        $nodemcuModelo = new nodemcuModelo();
+        $nodemcuModelo->agregarDispositivo($datos);
+
+        return redirect()->to(site_url('cargarNodemcu'));
     }
 }

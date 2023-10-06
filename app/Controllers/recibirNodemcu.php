@@ -1,18 +1,21 @@
 <?php
 
 namespace App\Controllers;
+
 use App\Models\nodemcuModelo;
 use App\Models\caudalModelo;
 use App\Models\datoModelo;
 
-class RecibirNodemcu extends BaseController{
-    public function recibirDatos(){
+class RecibirNodemcu extends BaseController
+{
+    public function recibirDatos()
+    {
         $idNodemcu = $this->request->getVar('dato1');
 
         $nodemcuModelo = new nodemcuModelo();
         $resultado = $nodemcuModelo->selectDatos($idNodemcu);
-        
-         $response = [
+
+        $response = [
             'tiempoDucha' => $resultado['TiempoDucha'],
             'tiempoEspera' => $resultado['TiempoEspera'],
             'tiempoTolerancia' => $resultado['TiempoTolerancia'],
@@ -21,10 +24,10 @@ class RecibirNodemcu extends BaseController{
         // Devolver una respuesta al Arduino como JSON
 
         return $this->response->setJSON($response);
-        return $this->response->setJSON(['message' => '¡Solicitud recibida correctamente!']);
     }
 
-    public function recibirCaudal(){
+    public function recibirCaudal()
+    {
         $caudal = $this->request->getPost('dato1');
         $MAC = $this->request->getVar('dato2');
 
@@ -38,8 +41,9 @@ class RecibirNodemcu extends BaseController{
         $caudalModelo->insertarCaudal($datos);
     }
 
-    public function recibirCaudalimetro(){
-       $caudal = $this->request->getVar('dato1');
+    public function recibirCaudalimetro()
+    {
+        $caudal = $this->request->getVar('dato1');
         $mac = $this->request->getVar('dato2');
 
         //$mac = "asbbdcs";
@@ -49,7 +53,7 @@ class RecibirNodemcu extends BaseController{
             'Caudal' => $caudal,
             'IdNodemcu' => $mac,
         ];
-        
+
         $caudalModelo = new caudalModelo();
         $caudalModelo->insertarCaudal($datos);
 
@@ -57,6 +61,6 @@ class RecibirNodemcu extends BaseController{
         //echo $caudal;
         //echo $mac;
     }
-    }
+}
 
 ?>

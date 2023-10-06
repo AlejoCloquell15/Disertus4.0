@@ -171,7 +171,7 @@
         <nav>
             <a href="<?php echo base_url(); ?>cargarNodemcu" class="i-1" title="Configuracion"><i
                     class="bi bi-gear"></i></a>
-            <a href="#" title="Datos De Uso"><i class="bi bi-bar-chart"></i></a>
+            <a href="<?php echo base_url(); ?>cargarEst" title="Datos De Uso"><i class="bi bi-bar-chart"></i></a>
             <a href="#" title="Sobre Nostros"><i class="bi bi-people-fill"></i></a>
             <a href="#" title="Manual Del Dispositivo"><i class="bi bi-wrench"></i></a>
             <a href="#" title="Informacion Del Usuario"><i class="bi bi-person-circle"></i></a>

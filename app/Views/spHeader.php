@@ -12,12 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,400&display=swap"
         rel="stylesheet">
+
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
             background-color: #EBEBEB;
+            width: 100%;
+            height: 100%;
             /* Cambiar el color de fondo a blanco */
         }
 
@@ -154,7 +157,7 @@
     </header>
     <nav>
         <a href="<?php echo base_url(); ?>cargarNodemcu" title="Configuracion"><i class="bi bi-gear"></i></a>
-        <a href="#" title="Datos De Uso"><i class="bi bi-bar-chart"></i></a>
+        <a href="<?php echo base_url(); ?>cargarEst" title="Datos De Uso"><i class="bi bi-bar-chart"></i></a>
         <a href="#" title="Sobre Nostros"><i class="bi bi-people-fill"></i></a>
         <a href="#" title="Manual Del Dispositivo"><i class="bi bi-wrench"></i></a>
         <a href="#" title="Informacion Del Usuario"><i class="bi bi-person-circle"></i></a>

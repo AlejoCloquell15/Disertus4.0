@@ -7,7 +7,7 @@ class NodemcuModelo extends Model
 {
     protected $table = 'nodemcu';
     protected $primaryKey = 'IdNodemcu';
-    protected $allowedFields = ['IdUsuario'];
+    protected $allowedFields = ['IdUsuario', 'IdNodemcu', 'TiempoDucha', 'TiempoEspera', 'TiempoTolerancia', 'Nombre'];
 
     public function compararMac($mac)
     {
@@ -48,5 +48,19 @@ class NodemcuModelo extends Model
         $sql = $this->db->query("SELECT TiempoDucha, TiempoEspera, TiempoTolerancia FROM nodemcu");
         $resultado = $sql->getRowArray();
         return $resultado;
+    }
+
+    public function agregarDispositivo($datos)
+    {
+        $registrar = $this->db->table('nodemcu');
+        $registrar->insert($datos);
+    }
+
+    public function eliminarDispositivo($datos)
+    {
+        $builder = $this->db->table($this->table);
+        $builder->where('IdUsuario', $datos['IdUsuario']);
+        $builder->where('IdNodemcu', $datos['IdNodemcu']);
+        $builder->delete();
     }
 }

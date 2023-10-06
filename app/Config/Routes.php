@@ -42,17 +42,31 @@ $routes->post('/cerrarSession', 'login::cerrarSession');
 $routes->get('/cerrarSession', 'login::cerrarSession');
 $routes->get('/cargarPp', 'paginaPrincipal::cargarPp');
 $routes->get('/eliminarToken', 'paginaPrincipal::eliminarToken');
-$routes->get('/recibirNodemcu/(:any)', 'recibirNodemcu::recibirDatos'); $routes->post('/recibirNodemcu', 'recibirNodemcu::recibirDatos');
-$routes->get('/recibirCaudal', 'recibirNodemcu::recibirCaudal'); $routes->post('/recibirCaudal', 'recibirNodemcu::recibirCaudal');
-$routes->get('/recibir_caudalimetro/(:any)', 'recibirNodemcu::recibirCaudalimetro'); $routes->post('/recibir_caudalimetro', 'recibirNodemcu::recibirCaudalimetro');
+$routes->get('/recibirNodemcu/(:any)', 'recibirNodemcu::recibirDatos');
+$routes->post('/recibirNodemcu', 'recibirNodemcu::recibirDatos');
+$routes->get('/recibirCaudal', 'recibirNodemcu::recibirCaudal');
+$routes->post('/recibirCaudal', 'recibirNodemcu::recibirCaudal');
+$routes->get('/recibir_caudalimetro/(:any)', 'recibirNodemcu::recibirCaudalimetro');
+$routes->post('/recibir_caudalimetro', 'recibirNodemcu::recibirCaudalimetro');
 //$routes->get('/recibirNodemcuPrueba', 'recibirNodemcu::recibirDatosPrueba'); $routes->post('/recibirNodemcuPrueba', 'recibirNodemcu::recibirDatosPrueba');
-$routes->get('/enviarCorreo', 'recuperarPassword::correo'); $routes->post('/enviarCorreo', 'recuperarPassword::correo');
+$routes->get('/enviarCorreo', 'recuperarPassword::correo');
+$routes->post('/enviarCorreo', 'recuperarPassword::correo');
 $routes->post('/datosDispositivo', 'datosDispositivo::datosDispositivo');
-$routes->post('/cargarNodemcu', 'datosDispositivo::cargarNodemcu'); $routes->get('/cargarNodemcu', 'datosDispositivo::cargarNodemcu');
+$routes->post('/cargarNodemcu', 'datosDispositivo::cargarNodemcu');
+$routes->get('/cargarNodemcu', 'datosDispositivo::cargarNodemcu');
 $routes->post('/cargarSpConf', 'datosDispositivo::cargarSpConf');
+$routes->get('/cargarSpConf', 'datosDispositivo::cargarSpConf');
 $routes->get('/cargarRecuperacion', 'recuperarPassword::cargarRecuperacion');
 $routes->post('/enviarCodigo', 'recuperarPassword::enviarCodigo');
-$routes->post('/cambiarPassword', 'recuperarPassword::cambiarPassword'); 
+$routes->post('/cambiarPassword', 'recuperarPassword::cambiarPassword');
+$routes->post('/cargarAgregarNodemcu', 'datosDispositivo::cargarAgregarNodemcu');
+$routes->post('/agregarNodemcu', 'datosDispositivo::agregarNodemcu');
+$routes->post('/cargarEst', 'estadisticas::cargarEst');
+$routes->get('/cargarEst', 'estadisticas::cargarEst');
+$routes->post('/cargarSpEst', 'estadisticas::cargarSpEst');
+$routes->get('/cargarSpEst', 'estadisticas::cargarSpEst');
+$routes->post('/filtro/(:any)', 'estadisticas::filtro/$1');
+$routes->get('/filtro/(:any)', 'estadisticas::filtro/$1');
 
 /*
  * --------------------------------------------------------------------
